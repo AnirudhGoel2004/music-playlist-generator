@@ -1,0 +1,70 @@
+/* General Styles */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin: 0;
+  color: #1db954;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+/* Mood Buttons */
+#mood-section {
+  margin-bottom: 30px;
+}
+
+button.mood-btn {
+  padding: 15px 30px;
+  margin: 10px;
+  font-size: 1.2rem;
+  background-color: #1db954;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button.mood-btn:hover {
+  background-color: #14833b;
+}
+
+/* Playlist Section */
+#playlist-section {
+  margin-top: 30px;
+  text-align: left;
+  display: none;
+}
+
+#playlist-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#playlist-section li {
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+}
+
+a {
+  color: #1db954;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
